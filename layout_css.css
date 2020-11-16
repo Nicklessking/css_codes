@@ -1,0 +1,116 @@
+#myBODY{
+		
+			background-size: cover;
+			height: 100vh;
+			padding:0;
+			margin:0;
+			}
+            * { 
+                box-sizing: border-box; 
+            } 
+              
+            /* CSS property for header section */ 
+            div.row{
+                background-color:black;
+                border:5px;
+            }
+            .nav_menu a { 
+                float: left; 
+                display: block; 
+                color: white; 
+                text-align: center; 
+                padding: 14px 16px; 
+                text-decoration: none; 
+            } 
+            .nav_menu a:hover { 
+                background-color: white; 
+                color: green; 
+            } 
+              
+            /* CSS property for content section */ 
+            .columnA, .columnB, .columnC, .columnD{ 
+                float: left; 
+                width: 31%; 
+                padding: 15px; 
+                text-align:justify; 
+                border-style:inset;
+                color:chartreuse;
+                margin-left:20px;
+                font-family: "Anonymous Pro";
+                font-style:normal;
+            } 
+            
+            h2 { 
+                color:green; 
+                text-align:center; 
+            } 
+              
+            @media screen and (max-width:600px) { 
+                .columnA, .columnB, .columnC, .columnD{ 
+                    float: left; 
+					width:99%;
+					padding: 15px; 
+					text-align:justify; 
+					border-style:inset;
+					color:chartreuse;
+					margin-left:0%;
+					font-family: "Anonymous Pro";
+					font-style:normal;
+					} 
+                } 
+            } 
+            @media screen and (max-width:400px) { 
+                .columnA, .columnB, .columnC, .columnD{ 
+                    float: left; 
+					width:99%;
+					padding: 15px; 
+					text-align:justify; 
+					border-style:inset;
+					color:chartreuse;
+					margin-left:0%;
+					font-family: "Anonymous Pro";
+					font-style:normal;
+					} 
+                } 
+            } 
+            @media screen and (max-width:700px) { 
+                .columnA, .columnB, .columnC, .columnD{ 
+                    float: left; 
+					width:100%;
+					padding: 152px; 
+					text-align:justify; 
+					border-style:inset;
+					color:chartreuse;
+					margin-left:0%;
+					font-family: "Anonymous Pro";
+					font-style:normal;
+					} 
+                } 
+				.button1{
+					margin-top:15px;
+				
+				}
+				.button1 {
+				box-shadow: 0px 0px 0px 0px #2a4721;
+				background-color:transparent;
+				border-radius:22px;
+				border:3px solid black;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Times New Roman;
+				font-size:16px;
+				font-weight:bold;
+				font-style:italic;
+				padding:6px 7px;
+				text-decoration:none;
+				text-shadow:0px -1px 3px #2f6627;
+			}
+			.button1:hover {
+				background-color:transparent;
+			}
+			.button1:active {
+				position:relative;
+				top:1px;
+			}
+            } 
